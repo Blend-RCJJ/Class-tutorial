@@ -19,10 +19,9 @@ int main() {
 //練習問題
 //以下のArduino標準関数の内、裏がclassにまとめられているものだけを抜き出してね
 
-delay();
-pinMode();
+
 Wire.available();
-digitalWrite();
+
 Serial.begin();
 
 //練習問題
@@ -47,6 +46,7 @@ class Animal {
 };
 
 Animal neko;
+Animal KumakenGO;
 //指定箇所 1.
 
 int main(void) {
@@ -55,6 +55,8 @@ int main(void) {
     neko.hidari();
     printf("%d", neko.x);
 
-    //↓指定箇所 2 .3.
+ //↓指定箇所 2 .3.
+ scanf("%d",&KumakenGO.feeling);
+ printf("%d",KumakenGO.feeling);
 
 }
