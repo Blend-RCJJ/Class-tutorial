@@ -66,5 +66,9 @@ class Animal {
         x = x - 1;
     };
 
+    void reset() {
+        x = 0;
+    };
+
     //ここにreset()を記述せよ
 };
