@@ -22,3 +22,31 @@ void pandaRestart() {
 }
 
 //回答は以下に記述せよ
+
+class panda {
+   public:
+    int pandaFeeling = 0;
+
+    void happy() {
+        pandaFeeling += 1;
+        printf("panda is happy");
+    };
+
+    void sad() {
+        pandaFeeling -= 1;
+        printf("panda is sad");
+    };
+
+    void restart() {
+        pandaFeeling = 0;
+        printf("panda is 人生restarted");
+    };
+};
+
+panda Kubota;
+
+int main(void) {
+    Kubota.happy();
+    Kubota.sad();
+    Kubota.restart();
+}
