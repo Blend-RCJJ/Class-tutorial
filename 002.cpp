@@ -32,11 +32,22 @@ class Animal {
     };
 };
 
+ Animal buta;
 //ここに記述せよ
 
 //練習問題2
-//なんか変数と関数を一つづつ含むクラスを適当に作ってください
+//なんか変数と関数を一つずつ含むクラスを適当に作ってください
 
-class /*記述*/{
+class Chipon{
+    public:
+    int x;
+    
+    void Kubota(){
+        x = x + 2;
+    };
+
+    void Nikoru(){
+        x = x = 2;
+    };
     //以下に記述せよ；
 };
